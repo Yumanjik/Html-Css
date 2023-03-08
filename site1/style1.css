@@ -1,0 +1,210 @@
+body {
+    background: rgba(0, 0, 0, 0.07);
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+}
+.header{
+    background: bisque;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+}
+.li-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+}
+.li-kont{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 25px;
+    right: 180px;
+    font-size: 23px;
+}
+.kont{
+    margin: 0 7px;
+}
+.kont span{
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.logo{
+    margin: 8px 0 8px 8px;
+    width: 60px;
+}
+.logo img{
+    height: 59px;
+}
+header .name{
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    font-size: 59px;
+}
+.name p{
+    max-height: 75px;
+    margin: 4px 0 0 5px;
+
+}
+.cart {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.cart_link {
+    color: black;
+    text-decoration: none;
+    transition-duration: .3s;
+    transition-property: color;
+
+}
+.cart_link:hover {
+    text-decoration: none;
+    color: gray;
+}
+.cart_img {
+    content: url("img/cart.png");
+    max-height: 30px;
+    position: relative;
+    margin: 9px 0 0 2px;
+}
+.cart_lbl {
+    margin: 8px 0 0 2px;
+    height: 30px;
+    position: absolute;
+}
+.index_link {
+    width: 50px;
+    height: 75px;
+    color: black;
+    text-decoration: none;
+}
+.index_link:hover {
+    text-decoration: none;
+    color: gray;
+}
+.container {
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+    position: relative;
+    top: 100px;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+}
+.category{
+    justify-items: center;
+    align-items: end;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.name1{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+.cat-box{
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+
+
+}
+.cat-box:hover {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+.p1 {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 280px;
+    min-height: 200px;
+}
+.cat-cont {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+}
+.product {
+    background: rgba(255, 255, 255, 0.9);
+    display: grid;
+    padding: 24px 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    grid-template-columns: auto minmax(0,1fr) 160px;
+    font-size: 23px;
+}
+.pr-img {
+    margin-right: 15px;
+}
+.pr-img img {
+    height: 192px;
+}
+.pr-name {
+    display: flex;
+    flex-direction: column;
+}
+.pr-spec{
+    padding-top: 10px;
+    grid-gap: 2px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+
+}
+.pr-spec-title{
+    border-bottom: 1px dotted #ddd;
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.pr-spec-value{
+    border-bottom: 1px dotted #ddd;
+}
+.price-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-cont {
+    position: relative;
+    top: 100px;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100vh - 120px);
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
