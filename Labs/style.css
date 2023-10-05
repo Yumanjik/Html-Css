@@ -1,0 +1,56 @@
+body{
+    background: rgba(0, 0, 0, 0.07);
+    font-family: PT Sans,Helvetica,Arial,sans-serif
+
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.something{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center
+}
+.something div{
+    height: 155px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Socials{
+    display: flex;
+    flex-direction: column;
+
+}
+.Skills{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.Works{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.Socials li{
+    list-style-type: none;
+
+}
+.Socials img{
+    width: 50px;
+}
+
+.Socials ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.Works table{
+    margin: 16px 0;
+}
