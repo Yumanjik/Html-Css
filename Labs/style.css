@@ -12,6 +12,10 @@ body{
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 
 }
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
 .info p{
     color: #86898f;
     margin: 0;
@@ -19,65 +23,103 @@ body{
     font-weight: bold;
 
 }
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
 .container {
     max-width: 750px;
     margin: auto;
     padding-top: 30px;
 }
-section{
-    display: flex;
-    align-items: center;
-
-}
-.something{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-content: space-between;
-    align-items: start;
-    justify-items: center;
-    min-height: 200px;
-}
-h2{
-    text-align: center;
-}
-.something div{
-    height: 155px;
-}
 a{
     text-decoration: none;
     color: black;
 }
-.Socials{
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    color: grey;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table th {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
     display: flex;
-    flex-direction: column;
-
-
+    margin-bottom: 20px;
 }
-.Skills{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
 }
-.Works{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
+.row > .form-group:last-child {
+    margin-right: 0;
 }
-.Socials li{
-    list-style-type: none;
-
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
 }
-.Socials img{
-    width: 50px;
-}
-
-.Socials ul{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-}
-.Works table{
-    margin: 16px 0;
+.btn:hover {
+    opacity: 0.9;
 }
