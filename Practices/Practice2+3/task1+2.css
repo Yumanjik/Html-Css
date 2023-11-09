@@ -1,0 +1,22 @@
+h1 {
+    color: darkblue;
+}
+em{
+    color: coral;
+}
+li {
+    font-weight: bold;
+}
+li em{
+    font-size: 11px;
+}
+a:hover{
+    text-decoration: none;
+    color: chartreuse;
+}
+a:visited {
+    color: crimson;
+}
+.element {
+    font: normal 18px 'Roboto', sans-serif ;
+}

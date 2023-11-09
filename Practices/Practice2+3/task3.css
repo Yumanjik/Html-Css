@@ -1,0 +1,19 @@
+body {
+    background: #cccccc;
+}
+
+.circle {
+    background: #bc002d;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+
+}
+.flag {
+    background: white;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
